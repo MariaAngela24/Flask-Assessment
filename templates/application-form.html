@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Skills-HTML-CSS</title>
+</head>
+<body>
+    <h1>Employment Application</h1>
+    <p class="container">
+        Please answer all questions completely.
+    </p>
+    <form action="/application" method="POST">
+        <label for="firstname">First name: </label>
+            <input id="firstname" type="text" name="textfield"><br>
+         <label for="lastname">Last name: </label>
+            <input id="lastname" type="text" name="textfield"><br>
+         <label for="desiredsalary">Desired salary: </label>
+            <input id="desiredsalary" type="text" name="textfield"><br>
+        <label for="position">Desired position:</label>
+            <select id="position" name="select">
+            <option value="softwareengineer">Software Engineer</option>
+            <option value="QAengineer">QA Engineer</option>
+            <option value="product manager">Product Manager</option>
+            </select><br>
+        <input type="submit" name="submit" value="Submit">
+
+</body>
+</html>
